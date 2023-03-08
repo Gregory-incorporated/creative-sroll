@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<link>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,12 +8,62 @@
     <script src="libs/gsap/gsap.min.js" defer></script>
     <script src="libs/gsap/ScrollTrigger.min.js" defer></script>
     <script src="libs/gsap/ScrollSmoother.min.js" defer></script>
-    <link rel="stylesheet" href="css/main.css" />
-    <script href="js/app.js" defer/>
+    <link rel="stylesheet" href="css/main.css" ></link>
+    <script src="js/app.js" defer></script>
 </head>
 <body>
+    <div class="wrapper">
+        <div class="content">
 
-    
+    <header class="hero-section">
+        <img data-speed=".6" src="img/hero.png" alt="#" class="hero">
+        <div class="container">
+            <div data-speed=".75" class="main-header">
+                <h1 class="main-title">creative scroll</h1>
+            </div>
+        </div>
+    </header>
 
+    <div class="portfolio">
+        <div class="container">
+            <main class="gallery">
+                <div data-speed=".9" class="gallery__left">
+                    <img class="gallery__item" src="img/work/1.jpg" alt="#"/>
+                    <img class="gallery__item"src="img/work/2.jpg" alt="#"/>
+
+                    <div class="text-block gallery__item">
+                        <h2 class="text-block__h">
+                            Creative floating scroll with amazing parallax effect
+                        </h2>
+                            <p class="text-block__p">
+                                A creative floating scroll with amazing parallax effect is a web design technique that creates an illusion of depth and movement by allowing the background to move at a different speed than the foreground as the user scrolls down the page. This effect can be achieved using CSS and JavaScript, and it adds a visually striking element to a website that can make it more engaging and memorable. The floating scroll and parallax effect can be customized to fit the brand's aesthetic and style, making it a versatile technique for a wide range of websites.
+                            </p>
+                    </div>
+                    <img class="gallery__item"src="img/work/6.jpg" alt="#">
+
+                </div>
+                <div data-speed="1.1" class="gallery__right">
+                    <div class="text-block gallery__item">
+                        <h2 class="text-block__h">
+                            The Art of Parallax Effect in Design: Adding Depth and Motion to Your Web Pages
+                        </h2>
+                            <p class="text-block__p">
+                                Parallax effect is a design technique that creates an illusion of depth and movement by allowing the background to move at a slower pace than the foreground as the user scrolls down the page. This effect can be used in various ways to enhance the visual appeal and user experience of a website, from adding a subtle layer of dimensionality to the design to creating a dynamic and immersive storytelling experience. 
+                                By using parallax effect, designers can create a sense of depth and motion that engages the user's attention and makes the website more memorable and interactive. With the right implementation and customization, the parallax effect can transform a static webpage into a dynamic and visually stunning work of art.
+                            </p>
+                    </div>
+                    <img class="gallery__item" src="img/work/4.jpg" alt="#"/>
+                    <img class="gallery__item" src="img/work/5.jpg" alt="#"/>            
+                    <img class="gallery__item" src="img/work/3.jpg" alt="#">
+
+
+                </div>
+            </main>
+        </div>
+    </div>
+   
+
+        </div>
+    </div>
 </body>
 </html>
