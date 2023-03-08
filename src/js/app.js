@@ -2,7 +2,7 @@
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
 // Only apply the animation for devices without touch
-if (!ScrollTrigger.isTouch) {
+if (ScrollTrigger.isTouch !== 1) {
   // Create ScrollSmoother with options
   ScrollSmoother.create({
     wrapper: ".wrapper",
