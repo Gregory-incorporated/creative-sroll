@@ -10,3 +10,4 @@
 
 Feel free to contact me email grishap96123@gmail.com
 
+permalink: /index.html
