@@ -7,7 +7,6 @@
 
 ## Screenshots
 <div align="left">
-    <img src="https://firebasestorage.googleapis.com/v0/b/pet-projects-db.appspot.com/o/Portfolio%20previews%2Fcreative-scroll%2FScreenshot%202023-04-21%20at%2016.17.33.png?alt=media&token=5af8b65d-9807-492b-9449-1c52853d2e40" width="300px"</img> 
     <img src="https://firebasestorage.googleapis.com/v0/b/pet-projects-db.appspot.com/o/Portfolio%20previews%2Fcreative-scroll%2FScreenshot%202023-04-21%20at%2016.16.22.png?alt=media&token=29a2446c-7c3e-4292-a0f2-e8fbe2f5b4d0" width="300px"</img> 
     
 </div>
